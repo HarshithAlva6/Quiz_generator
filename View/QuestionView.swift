@@ -60,8 +60,14 @@ struct QuestionView: View {
                     .padding(.bottom)
                 
                 if viewModel.isLoading {
-                    ProgressView("Generating options...")
+                    VStack {
+                        ProgressView("Generating options...")
+                        Text("This may take a few seconds")
+                            .font(.footnote)
+                            .foregroundColor(.gray)
+                    }
                 }
+
                 
                 if !currentQ.options.isEmpty {
                     LazyVGrid(columns: columns, spacing: 10) {

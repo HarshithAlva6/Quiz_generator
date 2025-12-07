@@ -1,0 +1,10 @@
+//
+//  Config.xcconfig
+//  QuizGen
+//
+//  Created by Harshith Harijeevan on 12/5/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+GEMINI_API_KEY = AIzaSyBom8nDKTHNhbzBAv8yZNX6xErqU3nH7zs
